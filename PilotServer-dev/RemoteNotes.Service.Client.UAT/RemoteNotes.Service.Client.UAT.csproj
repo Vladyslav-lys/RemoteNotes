@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SpecFlow.NUnit" Version="3.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RemoteNotes.BLL.Activities\RemoteNotes.BLL.Activities.csproj" />
+    <ProjectReference Include="..\RemoteNotes.BLL.Contract\RemoteNotes.BLL.Contract.csproj" />
+    <ProjectReference Include="..\RemoteNotes.BLL.DomainEvents\RemoteNotes.BLL.DomainEvents.csproj" />
+    <ProjectReference Include="..\RemoteNotes.BLL.Rules\RemoteNotes.BLL.Rules.csproj" />
+    <ProjectReference Include="..\RemoteNotes.BLL.Tests\RemoteNotes.BLL.Tests.csproj" />
+    <ProjectReference Include="..\RemoteNotes.BLL.UseCases\RemoteNotes.BLL.UseCases.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL.Contract\RemoteNotes.DAL.Contract.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL.Core\RemoteNotes.DAL.Core.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL.Tests\RemoteNotes.DAL.Tests.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL\RemoteNotes.DAL.csproj" />
+    <ProjectReference Include="..\RemoteNotes.Server\RemoteNotes.Server.csproj" />
+    <ProjectReference Include="..\RemoteNotes.Service.Client.Contract\RemoteNotes.Service.Client.Contract.csproj" />
+    <ProjectReference Include="..\RemoteNotes.Service.Client\RemoteNotes.Service.Client.csproj" />
+    <ProjectReference Include="..\RemoteNotes.Service.Domain\RemoteNotes.Service.Domain.csproj" />
+    <ProjectReference Include="..\RemoteNotes.Service\RemoteNotes.Service.csproj" />
+  </ItemGroup>
+
+</Project>

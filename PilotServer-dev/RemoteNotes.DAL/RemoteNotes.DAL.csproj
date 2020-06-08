@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.30" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="MySql.Data" Version="8.0.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RemoteNotes.BLL.Rules\RemoteNotes.BLL.Rules.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL.Core\RemoteNotes.DAL.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RemoteNotes.BLL.Activities\RemoteNotes.BLL.Activities.csproj" />
+    <ProjectReference Include="..\RemoteNotes.BLL.Rules\RemoteNotes.BLL.Rules.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL\RemoteNotes.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Account\" />
+  </ItemGroup>
+
+</Project>

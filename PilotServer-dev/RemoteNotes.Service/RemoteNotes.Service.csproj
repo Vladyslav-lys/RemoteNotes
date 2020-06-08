@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="5.1.2" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RemoteNotes.BLL.DomainEvents\RemoteNotes.BLL.DomainEvents.csproj" />
+    <ProjectReference Include="..\RemoteNotes.BLL.Rules\RemoteNotes.BLL.Rules.csproj" />
+    <ProjectReference Include="..\RemoteNotes.BLL.UseCases\RemoteNotes.BLL.UseCases.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL\RemoteNotes.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

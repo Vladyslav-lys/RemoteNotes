@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RemoteNotes.BLL.DomainEvents\RemoteNotes.BLL.DomainEvents.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL.Contract\RemoteNotes.DAL.Contract.csproj" />
+    <ProjectReference Include="..\RemoteNotes.DAL.Core\RemoteNotes.DAL.Core.csproj" />
+  </ItemGroup>
+
+</Project>
